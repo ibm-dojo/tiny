@@ -5,4 +5,4 @@ docker cp result:/hello .
 docker rm -f result
 docker rmi -f tinybuild:alpine
 docker build -t tiny .
-docker run tiny
+docker run --rm tiny
