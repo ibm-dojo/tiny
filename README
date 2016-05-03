@@ -1,0 +1,4 @@
+must have docker installed
+run build.sh to do all the things
+
+builds and runs a very small container
