@@ -1,4 +1,4 @@
-from scratch
-maintainer Morgan Bauer <mbauer@us.ibm.com>
-add hello hello
-entrypoint ["/hello"]
+FROM scratch
+MAINTAINER Morgan Bauer <mbauer@us.ibm.com>
+ADD hello hello
+ENTRYPOINT ["/hello"]
